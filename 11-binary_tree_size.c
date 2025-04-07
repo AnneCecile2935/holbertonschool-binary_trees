@@ -10,4 +10,3 @@ if (tree == NULL)
 return (0);
 return (1 + binary_tree_size(tree->left) + binary_tree_size(tree->right));
 }
-fdf
