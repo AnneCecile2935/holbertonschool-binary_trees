@@ -32,7 +32,8 @@ return (0);
 left_height = binary_tree_height2(tree->left);
 right_height = binary_tree_height2(tree->right);
 if (left_height == right_height)
-return (binary_tree_is_perfect(tree->left) && binary_tree_is_perfect(tree->right));
+return (binary_tree_is_perfect(tree->left)
+&& binary_tree_is_perfect(tree->right));
 else
 return (0);
 }
